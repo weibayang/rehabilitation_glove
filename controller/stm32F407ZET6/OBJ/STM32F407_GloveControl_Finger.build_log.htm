@@ -1,0 +1,122 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: wcy,  , LIC=MPPLD-8DAU3-KPCZY-ICWV0-TM53P-ZT9ZM
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  D:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      CMSIS_AGDI.dll V1.26.5.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+D:\Users\wcy\Desktop\20221022—显示器显示\STM32_Vision9—20221006—新板子康复动作曲线获取-显示器显示\USER\STM32F407_GloveControl_Finger.uvprojx
+Project File Date:  10/22/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'D:\keil\ARM\ARMCC\Bin'
+Rebuild target 'STM32F407_GloveControl_Finger'
+compiling stm32f4xx_it.c...
+assembling startup_stm32f40_41xxx.s...
+compiling stm32f4xx_dma.c...
+compiling sys.c...
+compiling delay.c...
+compiling misc.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_rcc.c...
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_flash.c...
+compiling stm32f4xx_gpio.c...
+compiling main.c...
+main.c(170): warning:  #177-D: variable "i" was declared but never referenced
+  	int i=0;
+main.c(172): warning:  #177-D: variable "len" was declared but never referenced
+  	int len = 0;
+main.c(173): warning:  #177-D: variable "state" was declared but never referenced
+  	int state = 0;
+main.c: 3 warnings, 0 errors
+compiling stm32f4xx_tim.c...
+compiling LED.c...
+compiling I2Csml.c...
+compiling GMValueDef.c...
+compiling TIM.c...
+compiling PCA9685.c...
+..\APP\PCA9685\PCA9685.c(8): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	prescale = (u8)floor(prescaleval+0.5)-1;
+..\APP\PCA9685\PCA9685.c: 1 warning, 0 errors
+compiling Usart.c...
+..\APP\USART\Usart.c(213): warning:  #1-D: last line of file ends without a newline
+  }
+..\APP\USART\Usart.c: 1 warning, 0 errors
+compiling stmflash.c...
+compiling MyFunc.c...
+..\APP\MyFunc\MyFunc.c(283): warning:  #177-D: variable "IntervalTime" was declared but never referenced
+  	float IntervalTime = 16; //s
+..\APP\MyFunc\MyFunc.c(514): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  			if(Time<timeArr[1]&&Time>(timeArr[1]-2.0)){
+..\APP\MyFunc\MyFunc.c(467): warning:  #550-D: variable "zhongMove" was set but never used
+  	static MOVE_PARA zhongMove;
+..\APP\MyFunc\MyFunc.c(468): warning:  #550-D: variable "wumingMove" was set but never used
+  	static MOVE_PARA wumingMove;
+..\APP\MyFunc\MyFunc.c(469): warning:  #550-D: variable "xiaoMove" was set but never used
+  	static MOVE_PARA xiaoMove;
+..\APP\MyFunc\MyFunc.c(587): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  			if(Time<timeArr[0]&&Time>(timeArr[0]-0.5)){
+..\APP\MyFunc\MyFunc.c(680): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  			if(Time<timeArr[1]&&Time>(timeArr[1]-1.5)){
+..\APP\MyFunc\MyFunc.c(761): warning:  #550-D: variable "wumingMove" was set but never used
+  	static MOVE_PARA wumingMove;
+..\APP\MyFunc\MyFunc.c(762): warning:  #550-D: variable "xiaoMove" was set but never used
+  	static MOVE_PARA xiaoMove;
+..\APP\MyFunc\MyFunc.c(1019): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  			if(Time<timeArr[1]&&Time>(timeArr[1]-1.5)){
+..\APP\MyFunc\MyFunc.c(1103): warning:  #550-D: variable "shiMovePara" was set but never used
+  	static MOVE_PARA shiMovePara;
+..\APP\MyFunc\MyFunc.c(1104): warning:  #550-D: variable "zhongMovePara" was set but never used
+  	static MOVE_PARA zhongMovePara;
+..\APP\MyFunc\MyFunc.c(1105): warning:  #550-D: variable "wumingMovePara" was set but never used
+  	static MOVE_PARA wumingMovePara;
+..\APP\MyFunc\MyFunc.c(1106): warning:  #550-D: variable "xiaoMovePara" was set but never used
+  	static MOVE_PARA xiaoMovePara;
+..\APP\MyFunc\MyFunc.c(1202): warning:  #550-D: variable "wumingMovePara" was set but never used
+  	static MOVE_PARA wumingMovePara;
+..\APP\MyFunc\MyFunc.c(1203): warning:  #550-D: variable "xiaoMovePara" was set but never used
+  	static MOVE_PARA xiaoMovePara;
+..\APP\MyFunc\MyFunc.c(1398): warning:  #514-D: pointless comparison of unsigned integer with a negative constant
+  			if(cur_state_move == -1)      continue;
+..\APP\MyFunc\MyFunc.c: 17 warnings, 0 errors
+compiling SPIAD7606.c...
+..\APP\SPIAD7606\SPIAD7606.c(8): warning:  #177-D: variable "i" was declared but never referenced
+  	int i = 0;
+..\APP\SPIAD7606\SPIAD7606.c(139): warning:  #177-D: variable "i" was declared but never referenced
+  	int i = 0;
+..\APP\SPIAD7606\SPIAD7606.c: 2 warnings, 0 errors
+compiling GetAngle.c...
+GetAngle.c(156): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		NowFinger->angleAct =1.0*(DIPAngle+PIPAngle+MCPAngle);//+9.923;
+GetAngle.c: 1 warning, 0 errors
+linking...
+Program Size: Code=22912 RO-data=1700 RW-data=13636 ZI-data=5740  
+FromELF: creating hex file...
+"..\OBJ\STM32F407_GloveControl_Finger.axf" - 0 Error(s), 25 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  D:\Users\wcy\Desktop\20221022—显示器显示\STM32_Vision9—20221006—新板子康复动作曲线获取-显示器显示\USER\RTE
+  D:\keil\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

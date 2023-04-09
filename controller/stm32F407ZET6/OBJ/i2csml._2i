@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CORE -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\APP\LED -I ..\APP\I2Csml -I ..\APP\PCA9685 -I ..\APP\TLC1543 -I ..\APP\USART_DMA -I ..\APP\TIM -I ..\APP\GMValueDef -I ..\APP\SPIADS1256 -I ..\APP\USART -I ..\APP\MyFunc -I ..\APP\STMFlash -I ..\APP\SPIAD7606 -I ..\FWLIB\src -I ..\..\STM32_Vision9—20211213—手套动作实战版
+-I E:\手套实验\new_single_finger\STM32_Vision9—20211213—手套动作实战版\USER\RTE
+-I D:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-I D:\keil\ARM\CMSIS\Include
+-D__UVISION_VERSION="518" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99
+-o ..\obj\i2csml.o --omf_browse ..\obj\i2csml.crf --depend ..\obj\i2csml.d --feedback "..\OBJ\STM32F407_GloveControl_Finger.fed" "..\APP\I2Csml\I2Csml.c"
