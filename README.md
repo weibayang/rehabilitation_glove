@@ -25,13 +25,13 @@ We recommend using the following integrated development environments (IDEs) to w
 Prerequisites:
 Before you begin, ensure you have met the following requirements:
 1.Install the Development Environment:
-Install an integrated development environment (IDE) suitable for STM32 development, such as STM32CubeIDE or Keil MDK. These IDEs facilitate code writing, compilation, and debugging for STM32 micro-controllers.
+  - Install an integrated development environment (IDE) suitable for STM32 development, such as STM32CubeIDE or Keil MDK. These IDEs facilitate code writing, compilation, and debugging for STM32 micro-controllers.
 2.Install Device Drivers:
-Install drivers for your STM32 debugger, whether it's an ST-Link or J-Link, to ensure proper communication between the computer and the target STM32 device.
+  - Install drivers for your STM32 debugger, whether it's an ST-Link or J-Link, to ensure proper communication between the computer and the target STM32 device.
 3.Acquire the STM32 Firmware Library:
-Depending on your project requirements, obtain or configure the appropriate version of the STM32 firmware library.Here, we are required to configure the STM32F40x.
+  - Depending on your project requirements, obtain or configure the appropriate version of the STM32 firmware library.Here, we are required to configure the STM32F40x.
 4.Configure the IDE:
-Configure the chosen IDE to match your hardware and project settings. Set the target device model, programmer options, and compiler paths within the IDE.
+  - Configure the chosen IDE to match your hardware and project settings. Set the target device model, programmer options, and compiler paths within the IDE.
 
 Usage:
 Now, you can open the open-source code available on GitHub through the IDE and directly download it to the connected microcontroller. The code will execute automatically.
