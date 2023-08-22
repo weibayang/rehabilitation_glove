@@ -1,5 +1,5 @@
 # Readme File
-## Project Name:A soft-packaged and portable rehabilitation glove capable of fine motor skills
+## Project Name:
 A soft-packaged and portable rehabilitation glove capable of closed-loop fine motor skills
 
 ## Description:
